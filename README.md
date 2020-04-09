@@ -1,25 +1,25 @@
 # Javascript-Challenges
 Javascript Challenges covering important Javascript topics 
 ## 1. Variables & basic data types in javascript
-Objectives
+### Objectives
 Declaring and defining variables.
 Learn about basic data types in Javascript (String, Number, Object, Array)
-Instructions
+### Instructions
 Declare and define the following variables:
 
-name with the value "John Smith"
-age with the value 55
-height with the value 175.5
-favoriteColors as an array with the following items "Red", "Green" and "Blue"
-user as an object with the fields:
-name with the value "John Smith"
-age with the value 55
-height with the value 175.5
-favoriteColors as an array with the following items "Red", "Green" and "Blue"
-Tips & Reflections
+* name with the value "John Smith" 1
+* age with the value 55 2
+* height with the value 175.5 3
+* favoriteColors as an array with the following items "Red", "Green" and "Blue" 4
+* user as an object with the fields: 5
+* name with the value "John Smith" 5a
+* age with the value 55 5b
+* height with the value 175.5 5c
+* favoriteColors as an array with the following items "Red", "Green" and "Blue" 5d
+### Tips & Reflections
 Learn about javascript modules and how to export and import values. The code for exporting the variables in this lab is already provided. Don't change it but try to understand it.
 Try to experiment with var, let and const. What are the differences between them?
-Useful links
+### Useful links
 freeCodeCamp.org - Full Course video
 W3 Schools - Operators tutorial
 W3 Schools - Functions tutorial
@@ -464,11 +464,11 @@ Wikipedia - Prime number
 Wikipedia - Primality test
 
 ## 22. Graph Search (BFS/DFS)
-Objectives
+### Objectives
 Learn about some fundamental concepts related to graph theory.
 Learn about different ways to represent graph data structures.
 Implement BFS (Breadth first search) or DFS (Depth first search) from scratch.
-Instructions
+### Instructions
 Implement a function graphSearch(edges, start, end) that takes the following parameters:
 
 edges is a list of the graph edges. Edges are stored as an array of arrays. Each element in the array is an edges: [ [from_1, to_1], [from_2, to_2] ].
@@ -476,7 +476,7 @@ start is the start node where the search should begin.
 end is the end or target node which is the node we are looking for.
 The function should return true if there is a path from from to to
 
-Examples
+### Examples
 example graph
 
 const edges = [
@@ -489,12 +489,12 @@ graphSearch(edges, 1, 1); // Should be true graphSearch(edges, 1, 2); // Should 
 
 graphSearch(edges, 2, 1); // Should be false graphSearch(edges, 2, 3); // Should be false graphSearch(edges, 3, 2); // Should be false
 
-Tips & Reflections
+### Tips & Reflections
 Graphs are extremely common in every day life. Graph databases are used to represent flight traffic, social networks, knowledge graphs and many other things. Can you think of other examples?
 What is the difference between directed and undirected graphs?
 What are the different tradeoffs between BFS and DFS? When is it useful to use each?
 Why is searching for paths in a graph such an important thing? Can you think of some examples?
-Useful links
+### Useful links
 Wikipedia - Graph data structure
 Medium - What the Graph? blog article
 Wikipedia - Breadth first search
