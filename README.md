@@ -7,15 +7,15 @@ Learn about basic data types in Javascript (String, Number, Object, Array)
 ### Instructions
 Declare and define the following variables:
 
-* name with the value "John Smith" 1
-* age with the value 55 2
-* height with the value 175.5 3
-* favoriteColors as an array with the following items "Red", "Green" and "Blue" 4
-* user as an object with the fields: 5
-* name with the value "John Smith" 5a
-* age with the value 55 5b
-* height with the value 175.5 5c
-* favoriteColors as an array with the following items "Red", "Green" and "Blue" 5d
+* name with the value "John Smith" 
+* age with the value 55 
+* height with the value 175.5 
+* favoriteColors as an array with the following items "Red", "Green" and "Blue" 
+* user as an object with the fields: 
+    * name with the value "John Smith" 
+    * age with the value 55 
+    * height with the value 175.5 
+    * favoriteColors as an array with the following items "Red", "Green" and "Blue" 
 ### Tips & Reflections
 Learn about javascript modules and how to export and import values. The code for exporting the variables in this lab is already provided. Don't change it but try to understand it.
 Try to experiment with var, let and const. What are the differences between them?
